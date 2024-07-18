@@ -1,0 +1,744 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Home-section{
+    background: #2F1F14;
+    padding-bottom: 10rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+}
+
+ul li{
+    margin-top: 6rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: -6rem;
+    left: 5rem;
+}
+
+.coffe{
+    text-align: center;
+    margin-top: 180px;
+    color: #ffffff;
+    margin-right: 26rem;
+}
+
+.coffe h3{
+   
+    font-size: 5rem;
+    font-weight: 500px;
+    line-height: 153.81px;
+}
+
+.coffe p{
+    font-family: Galada;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -2rem;
+}
+
+.sub-logo img{
+   width: 83rem;
+   height: 46.21rem;
+   position: absolute;
+   top: -7.4rem;
+   left: 15.7rem;
+}
+
+
+/* Home Section Ends Here */
+
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #DBBCA1;
+}
+
+.hot-cup img{
+    width: 24rem;
+    height: 22rem;
+    border-radius: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.discover h3{
+    font-family: Poppins;
+    font-size: 50px;
+    color: #220404;
+    margin-top: 3rem;
+}
+
+.discover span{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    color: #1B0B0B;
+}
+
+.discover p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.discover button{
+    margin-top: 2rem;
+    padding: 5px;
+    width: 150px;
+    background-color: #2f1f14;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+
+/* About Section style Ends Here */
+
+.Reviews{
+    text-align: center;
+}
+
+.sponsors-section{
+    background-color: #655546;
+    margin-top: -1rem;
+}
+
+.Reviews h3{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 4rem;
+    color: #ffffff;
+}
+
+.Reviews p{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.Reviews img{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 55rem;
+    top: 69.7rem;   
+}
+
+.sub-reviews{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.box1{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 40px;
+    background-color: #DBBCA1;
+}
+
+.box1 span{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.box1 p {
+    margin-top: 2rem;
+    text-align: center;
+    color: #0A424F;
+}
+
+.box2{
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #DBBCA1;
+}
+
+.box2 span{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;  
+}
+
+.box2 p{
+    margin-top: 2rem;
+    text-align: center;
+    color: #0A424F;
+}
+
+.box3{ border: 1px solid black;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #DBBCA1;
+}
+
+.box3 span{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;  
+}
+
+.box3 p{
+    margin-top: 2rem;
+    text-align: center;
+    color: #0A424F;
+}
+
+
+
+/* Sponsors Section Ends Here */
+
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: #291600;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.text h3{
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.text p{
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    color: #FFFFFFA8;
+}
+
+.inputs{
+    display: grid;
+    gap: 10px;
+    margin-top: 1.5rem;
+    border: none;
+}
+
+input{
+    width: 15rem;
+    padding: 7px;
+}
+
+.input3{
+    width: 20rem;
+    padding-bottom: 4rem;
+}
+
+.text-buttom{
+    width: 7rem;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    background-color: #DBBCA1;
+}
+
+.sitemap h3{
+    font-family: Inter;
+    font-size: 65px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.sitemap p{
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    color: #FFFFFFA8;
+    ;
+}
+
+.nav{
+    display: grid;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    gap: 4px;
+    margin-top: 1rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact img{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    top: 99rem;
+}
+
+.icons{
+    display: flex;
+    gap: 12px;
+    margin-top: 14rem;
+    margin-left: 3rem;
+}
+
+.icons .ii{
+    display: grid;
+    gap: 8px;
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.icons .pp{
+    display: grid;
+    gap: 8px;
+    color: #FFFFFFA8;
+    font-size: 21px;
+}
+
+.copyright{
+    border: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    padding: 15px;
+    background: #DBBCA1;
+}
+
+
+/* Screen Media Size Part */
+
+
+@media (max-width: 1280px) {
+    .sub-logo img{
+        width: 70rem;
+        height: 43.8rem;
+        position: absolute;
+        top: -5rem;
+        left: 10rem;
+    }   
+}
+
+@media (max-width: 1024px) {
+    .logo img{
+        width: 25rem;
+        height: 25rem;
+        margin-top: 1.5rem;
+    }
+    .coffe{
+        margin-right: 3rem;
+    }
+    .coffe h3{
+        font-size: 60px;
+        margin-top: -6rem;
+    }
+    .coffe p{
+        font-size: 25px;
+    }
+    .navbar ul{
+    font-size: 18px;
+    margin-left: 4rem;
+    }
+
+    .sub-logo img{
+        width: 30rem;
+        height: 37.4rem;
+        margin-left: 24rem;
+}
+
+.Reviews img{
+    left: 37.4rem;
+    top: 63.4rem;   
+}
+
+.box1{
+    padding: 12px;
+} 
+
+.box1 span{
+    font-size: 16px; 
+}
+
+.box2{
+    padding: 12px;
+}
+
+.box2 span{
+    font-size: 16px;
+}
+
+.box3{ 
+    padding: 12px;   
+}
+
+.box3 span{
+    font-size: 16px;
+}
+
+.text h3{
+    font-size: 36px;
+}
+
+.text p{
+    font-size: 23px;
+}
+
+.inputs input{
+    padding: 8px;
+    width: 9rem;
+}
+
+.inputs .input3{
+    padding: 21px;
+    width: 12rem;
+}
+
+.text-buttom{
+    width: 6rem;
+}
+
+.sitemap h3{
+    font-size: 36px;
+}
+
+.sitemap p{
+    font-size: 23px;
+}
+
+.nav{
+    font-size: 24px;
+}
+
+.contact img{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    top: 87rem; 
+}
+
+.footer1{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+}
+
+
+@media (max-width: 768px) {
+    .logo img{
+        width: 20rem;
+        height: 2orem;
+        margin-left: -4.4rem;
+        margin-top: 1rem;
+    }
+
+    .coffe h3{
+        font-size: 42px;
+    }
+
+    .coffe p{
+        font-size: 15px;
+    }
+
+    .coffe{
+        margin-left: -6rem;
+    }
+
+    .navbar a{
+        font-size: 15px;
+    }
+
+    .sub-logo img{
+        width: 40rem;
+        height: 38.76rem;
+        position: absolute;
+        top: -7rem;
+        left: -16.1rem;
+    }
+
+    .hot-cup img{
+        width: 15rem;
+        height: 17rem;
+    }
+
+    .discover h3{
+        font-size: 35px;
+    }
+
+    .discover span{
+        font-size: 24px;
+    }
+    
+    .discover p{
+        font-size: 16px;
+    }
+
+    .about-section{
+        padding-top: -1rem;
+        padding-bottom: -1rem;
+    }
+
+    .Reviews h3{
+        font-size: 40px;
+    }
+
+    .Reviews p{
+        font-size: 25px;
+    }
+
+    .Reviews img{
+        position: absolute;
+        top: 57rem;
+        left: 29rem;
+    }
+    
+    .box1{
+        padding: 8px;
+    } 
+    
+    .box1 span{
+        font-size: 12px; 
+    }
+    
+    .box2{
+        padding: 8px;
+    }
+    
+    .box2 span{
+        font-size: 12px;
+    }
+    
+    .box3{ 
+        padding: 8px;   
+    }
+    
+    .box3 span{
+        font-size: 12px;
+    }
+
+    .sponsors-section{
+        margin-bottom: -2rem;
+    }
+
+    
+.text h3{
+    font-size: 29px;
+}
+
+.text p{
+    font-size: 16px;
+}
+
+.inputs input{
+    padding: 6px;
+    width: 6rem;
+}
+
+.inputs .input3{
+    padding: 16px;
+    width: 9rem;
+}
+
+.text-buttom{
+    width: 4rem;
+}
+
+.sitemap h3{
+    font-size: 29px;
+}
+
+.sitemap p{
+    font-size: 16px;
+}
+
+.nav{
+    font-size: 19px;
+}
+
+.contact img{
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    top: 79rem; 
+}
+
+.icons{
+    margin-left: 2rem;
+}
+
+.icons .ii{
+    font-size: 15px;
+    margin-top: -4rem;
+}
+
+.icons .pp{
+    font-size: 15px;
+    margin-top: -4rem;
+}
+
+.copyright{
+    font-size: 18px;
+}
+}
+
+ 
+    @media (max-width: 430px) {
+   
+        .home-section {
+            padding-bottom: 4rem;
+        }
+    
+        .navbar ul{
+            font-size: 0px;
+        }
+        
+        .logo img {
+            width: 15rem;
+            height: 15rem;
+            top: -3rem;
+            left: 1rem;
+        }
+        
+        .coffee {
+            margin-top: -1.5rem;
+            margin-right: 5rem;
+        }
+        
+        .coffee h3 {
+            font-size: 20px;   
+        } 
+        
+        .coffee p {
+            font-size: 8px;
+            margin-top: -3.6rem;
+        }
+        
+        .sub-logo img {
+            width: 20rem;
+            height: 18.8rem;
+            top: -4.9rem;
+            left: 16rem;
+        
+        }
+    
+        .about-section {
+            display: grid;
+            justify-content: center;
+        
+        }
+        
+        .hot-cup img {
+            margin-bottom: 1rem;
+        }
+        
+        .discover h3 {
+            margin-top: 2rem;
+            font-size: 30px;  
+        }
+        
+        .discover span {
+            font-size: 20px;
+        }
+        
+        .discover p {
+            font-size: 12px;
+        }
+        
+        .discover button {
+            margin-top: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .reviews img {
+            bottom: 0.3rem;
+            left: 16.8rem;
+        }
+        
+        .sub-reviews {
+            display: grid;
+            
+        }
+        
+        
+        /* Sponsors Section Ends Here  */
+        
+        .footer1 {
+            display: grid;
+            justify-content: center;
+        
+        }
+        
+        .text h3 {
+            font-size: 40px;
+        }
+        
+        .text p {
+            font-size: 20px;   
+        }
+        
+        .sitemap h3 {
+            font-size: 40px; 
+        }
+        
+        .sitemap p {
+            font-size: 20px;
+        }
+        
+        .nav {
+            font-size: 18px;
+        }
+        
+        .contact img {
+            left: 5rem;
+            top: 135rem;
+        }
+        
+        .icons {
+            margin-top: 9rem;
+            margin-left: 2rem; 
+        }
+        
+        .icons .ii {
+            font-size: 16px; 
+        }
+        
+        .icons .pp {
+            font-size: 16px;
+        }
+        
+        .copyright {
+            font-size: 10px; 
+        }
+    }
